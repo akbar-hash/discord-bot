@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord dengan fitur AFK, voice, dan musik",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "@distube/ytdl-core": "^4.14.0",
+    "@iamtraction/play-dl": "^2.0.1",
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.8.4",
+    "play-dl": "^1.9.7",
+    "youtube-dl-exec": "^3.0.0",
+    "youtubei.js": "^18.0.0"
+  }
+}
